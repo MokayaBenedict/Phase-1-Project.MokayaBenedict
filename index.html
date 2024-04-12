@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+<body>
+<div class ="container">
+    <div class="images">
+    <h1>Do ME!!<img src="images/logo1.svg"></h1> 
+    </div>
+    <div class="container"></div>
+    <div>
+    <label for="taskInput">Task:</label>
+    <input type="text" id="taskInput" placeholder="Enter task description">
+    <label for="timeInput">Time of Completion:</label>
+    
+    <input type="time" id="timeInput"><br><br><br>
+
+
+    <button onclick="addTask()">Add Task to be done</button>
+
+   
+    <h2>Tasks to be done with specified time of completion:</h2>
+    <ul id="taskList"></ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(149, 23, 187);
+}
+button {
+    background-color: rgb(46, 182, 11);
+    color: #000000;
+    padding: 10px 20px; 
+    font-size: large; 
+    border-radius: 20px;
+    cursor: pointer; 
+    border: none; 
+    margin-top: -100;
+}
+
+
+#taskInput {
+    font-size: 18px;
+    
+}
+
+#timeInput {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+label {
+    font-size: 20px;
+}
+
+.images h1 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+   
+}
+
+.container {
+    width: 100vw; 
+    margin: 0 auto;
+    padding: 2px; 
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153667, #4e085f);
+    color: white; 
+
+
+  text-align: center;
+}
+  
+
+
+.label{
+  margin-bottom: -1000000;
+}
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: -600px;
+}
+ul li{
+
+  list-style: none;
+  font-size: 17px;
+  padding: 6px ;
+user-select: none;
+
+}
+/* ul li::before{
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+border-radius: 50%;
+background-image: url(images/circle-regular.svg);
+background-size: cover;
+background-position: center;
+top: 12px;
+left: 8px;
+} */
+.delete-button{
+  background-color: rgb(255, 9, 9);
+  color: aliceblue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+  
+}
+
+.delete-button:hover::after{
+  
+  content: '\1F622';
+  position: absolute;
+  top: 5%;
+  right: -30px;
+  transform: translate(-50);
+  font-size: 25px;
+background-color:darkred;
+}
+
+.task-item{
+  list-style: none;
+}
+.task-item input[type="checkbox"]{
+  margin-right: 10px;
+  transform: scale(50px);
+}
+
