@@ -1,7 +1,8 @@
 
-let tasks = [];
+let tasks = [];  
+// empty area for tasks to be done
 
-function addTask() {
+function addTask() {   
     let taskDescription = document.getElementById("taskInput").value.trim();
     let timeOfCompletion = document.getElementById("timeInput").value;
 
@@ -13,7 +14,7 @@ function addTask() {
         alert("Please enter a specified time");
         return;
     }
-
+// checks if no valuaes are imputed and returns an alert
     let taskItem = document.createElement("li");
     taskItem.textContent = `${taskDescription} - Time of completion: ${timeOfCompletion}`;
 
