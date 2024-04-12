@@ -28,7 +28,7 @@ To run the application, simply open the `index.html` file in your web browser.
 - `db.json`: JSON file containing todo list items and their completion times (if applicable).
 
 ## About API
-In this project,,,no public API has been used...all the information is being fetched from db.json  which is self created
+In this project,no public API has been used...all the information is being fetched from db.json  which is self created
 ## Credits
 
 This application was created by [Benedict Mokaya].
